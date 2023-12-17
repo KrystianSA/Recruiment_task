@@ -1,0 +1,52 @@
+<mat-card class="overal-mat-card">
+    <div class="icon-container">
+        <div mat-card-avatar class="example-header-image"></div>
+        <div mat-card-avatar class="example-header-image overlapping-icon2"></div>
+        <div mat-card-avatar class="example-header-image overlapping-icon3"></div>
+        <mat-card-title class="Too-late-too-join">Too late to join</mat-card-title>
+    </div>
+    <mat-card-title class="Weekly-Challenges">Weekly Challenges</mat-card-title>
+    <div>
+        <mat-card class="display-person-card-Positive">
+            <ng-container *ngTemplateOutlet="templateCard"></ng-container>
+            <div class="column-with-money">
+                <mat-card-title>+ $7,500</mat-card-title>
+                <mat-card-subtitle>45%</mat-card-subtitle>
+            </div>
+        </mat-card>
+        <mat-card class="display-person-card-Positive">
+            <ng-container *ngTemplateOutlet="templateCard"></ng-container>
+            <div class="column-with-money">
+                <mat-card-title>+ $1,430</mat-card-title>
+                <mat-card-subtitle>25%</mat-card-subtitle>
+            </div>
+        </mat-card>
+        <mat-card class="display-person-card-Negative">
+            <ng-container *ngTemplateOutlet="templateCard"></ng-container>
+            <div class="column-with-money">
+                <mat-card-title>- $1,500</mat-card-title>
+                <mat-card-subtitle>10%</mat-card-subtitle>
+            </div>
+        </mat-card>
+        <button mat-raised-button>View</button>
+    </div>
+</mat-card>
+
+<ng-template #templateCard>
+    <div mat-card-avatar class="person-image-card-container"></div>
+    <div class="column-with-text">
+        <mat-card-title class="person-card-title">Roger Korsgaard</mat-card-title>
+        <div class="sub-column">
+            <mat-card-subtitle class="person-card-subtitle-1">
+                <span>20</span>
+                <span>85%</span>
+                <span>11%</span>
+            </mat-card-subtitle>
+            <mat-card-subtitle class="person-card-subtitle-2">
+                <span>Alerts</span>
+                <span>Win Rate</span>
+                <span>Yield</span>
+            </mat-card-subtitle>
+        </div>
+    </div>
+</ng-template>

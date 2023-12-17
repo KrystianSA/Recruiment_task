@@ -1,0 +1,15 @@
+div{
+    width: 153px;
+    height: 33px;
+    margin-top: 10px;
+    margin-left: 20px;
+    opacity: 50%;
+}
+
+h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #FFFFFF;
+}

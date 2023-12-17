@@ -1,0 +1,36 @@
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
+
+mat-card-header {
+    top: 51px;
+    width: 332px;
+    margin-top: 50px;
+}
+
+mat-card-title {
+    font-family: 'Poppins';
+    font-weight: 400;
+    size: 14px;
+    line-height: 14px;
+    color: white;
+}
+
+mat-card-subtitle {
+    font-family: 'Poppins';
+    font-weight: 400;
+    size: 12px;
+    line-height: 14px;
+    color: white;
+}
+
+mat-icon{
+    width: 25px;
+    margin-right: 10px;
+    color: white;
+}
+
+mat-card-header{
+    width: 332px;
+}
